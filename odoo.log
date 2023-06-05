@@ -38944,3 +38944,76 @@ odoo.tools.convert.ParseError: while parsing file:/c:/program%20files/odoo%2016.
 2023-06-05 13:41:18,364 22216 INFO ? odoo.service.server: Initiating shutdown 
 2023-06-05 13:41:18,364 22216 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
 2023-06-05 13:41:19,452 22216 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 5 connections  
+2023-06-05 13:41:23,241 11540 INFO ? odoo: Odoo version 16.0+e-20230526 
+2023-06-05 13:41:23,241 11540 INFO ? odoo: Using configuration file at C:\Program Files\Odoo 16.0e.20230526\server\odoo.conf 
+2023-06-05 13:41:23,241 11540 INFO ? odoo: addons paths: ['C:\\Program Files\\Odoo 16.0e.20230526\\server\\odoo\\addons', 'c:\\program files\\odoo 16.0e.20230526\\sessions\\addons\\16.0', 'c:\\program files\\odoo 16.0e.20230526\\server\\odoo\\addons', 'c:\\program files\\odoo 16.0e.20230526\\server\\custom_addons'] 
+2023-06-05 13:41:23,241 11540 INFO ? odoo: database: openpg@localhost:5432 
+2023-06-05 13:41:23,398 11540 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Program Files\Odoo 16.0e.20230526\thirdparty\wkhtmltopdf.exe 
+2023-06-05 13:41:23,616 11540 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-TICG6T7:8069 
+2023-06-05 13:41:25,586 11540 INFO odoo odoo.modules.loading: loading 1 modules... 
+2023-06-05 13:41:25,602 11540 INFO odoo odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries (+0 extra) 
+2023-06-05 13:41:25,680 11540 INFO odoo odoo.modules.loading: loading 123 modules... 
+2023-06-05 13:41:25,695 11540 WARNING odoo odoo.addons.attachment_indexation.models.ir_attachment: Attachment indexation of PDF documents is unavailable because the 'pdfminer' Python library cannot be found on the system. You may install it from https://pypi.org/project/pdfminer.six/ (e.g. `pip3 install pdfminer.six`) 
+2023-06-05 13:41:26,586 11540 INFO odoo odoo.modules.loading: 123 modules loaded in 0.91s, 0 queries (+0 extra) 
+2023-06-05 13:41:26,742 11540 WARNING odoo odoo.fields: Field hospital.appointment.hide_sale_price: unknown parameter 'strign', if this is an actual parameter you may want to override the method _valid_field_parameter on the relevant model in order to allow it 
+2023-06-05 13:41:26,867 11540 INFO odoo odoo.modules.loading: Modules loaded. 
+2023-06-05 13:41:26,883 11540 INFO odoo odoo.modules.registry: Registry loaded in 1.327s 
+2023-06-05 13:41:26,883 11540 INFO odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-06-05 13:41:27,101 11540 INFO odoo werkzeug: 127.0.0.1 - - [05/Jun/2023 13:41:27] "GET /websocket HTTP/1.1" 101 - 23 0.016 1.530
+2023-06-05 13:41:27,117 11540 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2023-06-05 13:41:40,123 11540 INFO odoo werkzeug: 127.0.0.1 - - [05/Jun/2023 13:41:40] "POST /web/action/load HTTP/1.1" 200 - 13 0.031 0.672
+2023-06-05 13:41:40,264 11540 INFO odoo werkzeug: 127.0.0.1 - - [05/Jun/2023 13:41:40] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 49 0.031 0.094
+2023-06-05 13:41:40,646 11540 INFO odoo werkzeug: 127.0.0.1 - - [05/Jun/2023 13:41:40] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 46 0.026 0.032
+2023-06-05 13:41:40,655 11540 INFO odoo werkzeug: 127.0.0.1 - - [05/Jun/2023 13:41:40] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.008 0.051
+2023-06-05 13:41:44,288 11540 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['Hospital Management'] to user ssaifullah272@gmail.com #2 via 127.0.0.1 
+2023-06-05 13:41:44,290 11540 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['Hospital Management'] to user ssaifullah272@gmail.com #2 via 127.0.0.1 
+2023-06-05 13:41:44,291 11540 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['Hospital Management'] to user ssaifullah272@gmail.com #2 via 127.0.0.1 
+2023-06-05 13:41:45,796 11540 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user ssaifullah272@gmail.com #2 via 127.0.0.1 
+2023-06-05 13:41:45,843 11540 INFO odoo odoo.modules.loading: loading 1 modules... 
+2023-06-05 13:41:45,858 11540 INFO odoo odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries (+0 extra) 
+2023-06-05 13:41:45,874 11540 INFO odoo odoo.modules.loading: updating modules list 
+2023-06-05 13:41:45,874 11540 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2023-06-05 13:41:47,172 11540 INFO odoo odoo.modules.loading: loading 123 modules... 
+2023-06-05 13:41:47,219 11540 INFO odoo odoo.modules.loading: Loading module om_hospital (58/123) 
+2023-06-05 13:41:47,407 11540 WARNING odoo odoo.fields: Field hospital.appointment.hide_sale_price: unknown parameter 'strign', if this is an actual parameter you may want to override the method _valid_field_parameter on the relevant model in order to allow it 
+2023-06-05 13:41:47,438 11540 INFO odoo odoo.modules.registry: module om_hospital: creating or updating database tables 
+2023-06-05 13:41:47,768 11540 INFO odoo odoo.modules.loading: loading om_hospital/security/ir.model.access.csv 
+2023-06-05 13:41:47,933 11540 INFO odoo odoo.modules.loading: loading om_hospital/data/patient_tag_data.xml 
+2023-06-05 13:41:48,043 11540 INFO odoo odoo.modules.loading: loading om_hospital/wizard/cancel_appointment_view.xml 
+2023-06-05 13:41:48,217 11540 INFO odoo odoo.modules.loading: loading om_hospital/views/menu.xml 
+2023-06-05 13:41:48,365 11540 INFO odoo odoo.modules.loading: loading om_hospital/views/patient_view.xml 
+2023-06-05 13:41:48,579 11540 INFO odoo odoo.modules.loading: loading om_hospital/views/female_patient_view.xml 
+2023-06-05 13:41:48,653 11540 INFO odoo odoo.modules.loading: loading om_hospital/views/appointment_view.xml 
+2023-06-05 13:41:48,902 11540 INFO odoo odoo.modules.loading: loading om_hospital/views/patient_tag_view.xml 
+2023-06-05 13:41:49,155 11540 INFO odoo odoo.modules.loading: Module om_hospital loaded in 1.94s, 288 queries (+288 other) 
+2023-06-05 13:41:49,356 11540 INFO odoo odoo.modules.loading: 123 modules loaded in 2.18s, 288 queries (+288 extra) 
+2023-06-05 13:41:49,976 11540 WARNING odoo odoo.fields: Field hospital.appointment.hide_sale_price: unknown parameter 'strign', if this is an actual parameter you may want to override the method _valid_field_parameter on the relevant model in order to allow it 
+2023-06-05 13:41:50,910 11540 WARNING odoo odoo.fields: Field hospital.appointment.hide_sale_price: unknown parameter 'strign', if this is an actual parameter you may want to override the method _valid_field_parameter on the relevant model in order to allow it 
+2023-06-05 13:41:52,464 11540 INFO odoo odoo.modules.registry: verifying fields for every extended model 
+2023-06-05 13:41:55,485 11540 INFO odoo odoo.modules.loading: Modules loaded. 
+2023-06-05 13:41:55,506 11540 INFO odoo odoo.modules.registry: Registry loaded in 9.663s 
+2023-06-05 13:41:55,508 11540 INFO odoo odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2023-06-05 13:41:55,535 11540 INFO odoo odoo.modules.registry: Registry changed, signaling through the database 
+2023-06-05 13:41:55,541 11540 INFO odoo werkzeug: 127.0.0.1 - - [05/Jun/2023 13:41:55] "POST /web/dataset/call_button HTTP/1.1" 200 - 5277 5.386 5.877
+2023-06-05 13:41:55,907 11540 INFO odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-06-05 13:41:57,529 11540 INFO odoo werkzeug: 127.0.0.1 - - [05/Jun/2023 13:41:57] "GET /web HTTP/1.1" 200 - 100 0.071 1.565
+2023-06-05 13:41:58,562 11540 INFO odoo werkzeug: 127.0.0.1 - - [05/Jun/2023 13:41:58] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 6 0.001 0.020
+2023-06-05 13:41:58,772 11540 INFO odoo werkzeug: 127.0.0.1 - - [05/Jun/2023 13:41:58] "POST /mail/init_messaging HTTP/1.1" 200 - 63 0.085 0.083
+2023-06-05 13:41:59,061 11540 INFO odoo werkzeug: 127.0.0.1 - - [05/Jun/2023 13:41:59] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 12 0.031 0.027
+2023-06-05 13:41:59,080 11540 INFO odoo werkzeug: 127.0.0.1 - - [05/Jun/2023 13:41:59] "POST /mail/load_message_failures HTTP/1.1" 200 - 10 0.011 0.032
+2023-06-05 13:41:59,091 11540 INFO odoo werkzeug: 127.0.0.1 - - [05/Jun/2023 13:41:59] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.018
+2023-06-05 13:41:59,156 11540 INFO odoo werkzeug: 127.0.0.1 - - [05/Jun/2023 13:41:59] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.005 0.018
+2023-06-05 13:42:00,730 11540 INFO odoo werkzeug: 127.0.0.1 - - [05/Jun/2023 13:42:00] "POST /web/action/load HTTP/1.1" 200 - 13 0.014 0.015
+2023-06-05 13:42:01,100 11540 INFO odoo werkzeug: 127.0.0.1 - - [05/Jun/2023 13:42:01] "POST /web/dataset/call_kw/hospital.patient/get_views HTTP/1.1" 200 - 25 0.023 0.037
+2023-06-05 13:42:01,313 11540 INFO odoo werkzeug: 127.0.0.1 - - [05/Jun/2023 13:42:01] "POST /web/dataset/call_kw/hospital.patient/search_panel_select_multi_range HTTP/1.1" 200 - 3 0.005 0.014
+2023-06-05 13:42:01,434 11540 INFO odoo werkzeug: 127.0.0.1 - - [05/Jun/2023 13:42:01] "POST /web/dataset/call_kw/hospital.patient/web_read_group HTTP/1.1" 200 - 2 0.003 0.017
+2023-06-05 13:42:01,442 11540 INFO odoo werkzeug: 127.0.0.1 - - [05/Jun/2023 13:42:01] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.000 0.019
+2023-06-05 13:42:04,299 11540 INFO odoo werkzeug: 127.0.0.1 - - [05/Jun/2023 13:42:04] "POST /web/action/load HTTP/1.1" 200 - 10 0.010 0.017
+2023-06-05 13:42:04,629 11540 INFO odoo werkzeug: 127.0.0.1 - - [05/Jun/2023 13:42:04] "POST /web/dataset/call_kw/patient.tag/get_views HTTP/1.1" 200 - 11 0.007 0.016
+2023-06-05 13:42:04,877 11540 INFO odoo werkzeug: 127.0.0.1 - - [05/Jun/2023 13:42:04] "POST /web/dataset/call_kw/patient.tag/web_search_read HTTP/1.1" 200 - 4 0.007 0.011
+2023-06-05 13:42:11,215 11540 INFO odoo werkzeug: 127.0.0.1 - - [05/Jun/2023 13:42:11] "POST /web/dataset/call_kw/hospital.patient/search_panel_select_multi_range HTTP/1.1" 200 - 2 0.001 0.007
+2023-06-05 13:42:11,528 11540 INFO odoo werkzeug: 127.0.0.1 - - [05/Jun/2023 13:42:11] "POST /web/dataset/call_kw/hospital.patient/web_read_group HTTP/1.1" 200 - 2 0.006 0.008
+2023-06-05 13:42:14,510 11540 INFO odoo werkzeug: 127.0.0.1 - - [05/Jun/2023 13:42:14] "POST /web/dataset/call_kw/hospital.patient/search_panel_select_multi_range HTTP/1.1" 200 - 2 0.001 0.014
+2023-06-05 13:42:14,510 11540 INFO odoo werkzeug: 127.0.0.1 - - [05/Jun/2023 13:42:14] "POST /web/dataset/call_kw/hospital.patient/web_read_group HTTP/1.1" 200 - 2 0.000 0.015
+2023-06-05 13:42:15,440 11540 INFO odoo werkzeug: 127.0.0.1 - - [05/Jun/2023 13:42:15] "POST /web/dataset/call_kw/hospital.patient/search_panel_select_multi_range HTTP/1.1" 200 - 2 0.001 0.007
+2023-06-05 13:42:15,743 11540 INFO odoo werkzeug: 127.0.0.1 - - [05/Jun/2023 13:42:15] "POST /web/dataset/call_kw/hospital.patient/web_search_read HTTP/1.1" 200 - 3 0.001 0.007
