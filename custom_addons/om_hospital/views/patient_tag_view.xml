@@ -52,7 +52,6 @@
                 action= 'action_hospital_patient_tag'
                 sequence='10'/>
 
-
 </odoo>
 
 
