@@ -19,7 +19,7 @@
         <field name="name">hospital.patient.form</field>
         <field name="model">hospital.patient</field>
         <field name="arch" type="xml">
-            <form create="0" delete="0" edit="0">
+            <form>
                 <sheet>
                     <group>
                         <group>
@@ -31,6 +31,7 @@
                         <group>
                             <field name="name"/>
                             <field name="gender"/>
+                             <field name="tag_ids" widget="many2many_tags" options="{'color_field':'color'}"/>
                             <field name="active" invisible="1"/>
                         </group>
                     </group>
