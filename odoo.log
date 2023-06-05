@@ -36530,3 +36530,11 @@ psycopg2.OperationalError: server closed the connection unexpectedly
 2023-06-05 09:49:22,812 5056 INFO odoo werkzeug: 127.0.0.1 - - [05/Jun/2023 09:49:22] "POST /mail/thread/data HTTP/1.1" 200 - 18 0.000 0.047
 2023-06-05 09:49:29,826 5056 INFO odoo werkzeug: 127.0.0.1 - - [05/Jun/2023 09:49:29] "POST /mail/thread/messages HTTP/1.1" 200 - 4 0.012 0.008
 2023-06-05 09:49:29,861 5056 INFO odoo werkzeug: 127.0.0.1 - - [05/Jun/2023 09:49:29] "POST /mail/thread/data HTTP/1.1" 200 - 18 0.014 0.040
+2023-06-05 09:56:50,294 5056 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-06-05 09:56:50,307 5056 INFO odoo odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-06-05 10:00:39,629 5056 INFO odoo werkzeug: 127.0.0.1 - - [05/Jun/2023 10:00:39] "POST /web/dataset/call_kw/hospital.appointment/write HTTP/1.1" 200 - 7 0.019 0.001
+2023-06-05 10:00:39,864 5056 INFO odoo werkzeug: 127.0.0.1 - - [05/Jun/2023 10:00:39] "POST /mail/thread/messages HTTP/1.1" 200 - 4 0.009 0.009
+2023-06-05 10:00:40,017 5056 INFO odoo werkzeug: 127.0.0.1 - - [05/Jun/2023 10:00:40] "POST /web/dataset/call_kw/hospital.appointment/web_search_read HTTP/1.1" 200 - 13 0.015 0.043
+2023-06-05 10:00:40,034 5056 INFO odoo werkzeug: 127.0.0.1 - - [05/Jun/2023 10:00:40] "POST /mail/thread/data HTTP/1.1" 200 - 18 0.032 0.043
+2023-06-05 10:06:50,429 5056 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-06-05 10:06:50,445 5056 INFO odoo odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
