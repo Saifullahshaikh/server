@@ -39060,3 +39060,14 @@ odoo.tools.convert.ParseError: while parsing file:/c:/program%20files/odoo%2016.
 2023-06-05 14:03:26,256 7192 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
 2023-06-05 14:06:22,700 7192 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
 2023-06-05 14:06:22,710 7192 INFO odoo odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-06-05 14:16:19,548 7192 INFO odoo odoo.addons.base.models.ir_cron: Starting job `CRM: enrich leads (IAP)`. 
+2023-06-05 14:16:19,584 7192 INFO odoo odoo.addons.base.models.ir_cron: Job `CRM: enrich leads (IAP)` done. 
+2023-06-05 14:16:27,555 7192 INFO odoo werkzeug: 127.0.0.1 - - [05/Jun/2023 14:16:27] "POST /web/dataset/call_kw/hospital.appointment/read HTTP/1.1" 200 - 17 0.018 2.683
+2023-06-05 14:16:27,559 7192 INFO odoo werkzeug: 127.0.0.1 - - [05/Jun/2023 14:16:27] "POST /web/dataset/call_kw/hospital.appointment/read HTTP/1.1" 200 - 11 0.028 2.699
+2023-06-05 14:16:28,009 7192 INFO odoo werkzeug: 127.0.0.1 - - [05/Jun/2023 14:16:28] "POST /mail/thread/data HTTP/1.1" 200 - 20 0.029 0.021
+2023-06-05 14:16:28,042 7192 INFO odoo werkzeug: 127.0.0.1 - - [05/Jun/2023 14:16:28] "POST /mail/thread/messages HTTP/1.1" 200 - 27 0.056 0.026
+2023-06-05 14:16:28,133 7192 INFO odoo werkzeug: 127.0.0.1 - - [05/Jun/2023 14:16:28] "GET /web/bundle/web_editor.assets_wysiwyg?lang=en_US&debug=1 HTTP/1.1" 200 - 11 0.010 0.485
+2023-06-05 14:16:28,590 7192 INFO odoo werkzeug: 127.0.0.1 - - [05/Jun/2023 14:16:28] "POST /web_editor/get_ice_servers HTTP/1.1" 200 - 3 0.004 0.008
+2023-06-05 14:16:28,633 7192 INFO odoo werkzeug: 127.0.0.1 - - [05/Jun/2023 14:16:28] "GET /web/image/res.partner/3/avatar_128 HTTP/1.1" 304 - 7 0.005 0.035
+2023-06-05 14:16:33,040 7192 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-06-05 14:16:33,054 7192 INFO odoo odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
