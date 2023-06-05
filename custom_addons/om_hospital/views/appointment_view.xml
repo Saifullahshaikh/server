@@ -38,7 +38,8 @@
                     <button name="action_in_consultation" string="In Consultation" type="object" states="draft" class="oe_highlight"/>
                     <button name="action_done" string="Done" type="object" states="in_consultation" class="oe_highlight"/>
                     <button name="action_draft" string="Draft" type="object" states="cancel" class="oe_highlight"/>
-                    <button name="action_cancel" string="Cancel" type="object" states="draft" class="oe_highlight"/>
+                    <!-- <button name="action_cancel" string="Cancel" type="object" states="draft" class="oe_highlight"/> -->
+                    <button name="%(om_hospital.action_cancel_appointment)d" string="Cancel" type="action" states="draft" />
                     <field name="state" widget="statusbar" nolabel="1" options="{'clickable':'1'}"/>
                 </header>
                 <sheet>

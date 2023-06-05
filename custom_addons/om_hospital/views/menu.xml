@@ -16,10 +16,16 @@
                 parent='menu_hospital_main'
                 sequence='20'/>
 
-         <menuitem id='menu_configuration'
+        <menuitem id='menu_configuration'
                 name='Configuration'
                 parent='menu_hospital_main'
                 sequence='100'/>
+
+        <!-- <menuitem id='menu_cancel_appoinment'
+                name='Cancellation'
+                parent='menu_appointment_master'
+                action='action_cancel_appoinment'
+                sequence='20'/> -->
 
         
        
