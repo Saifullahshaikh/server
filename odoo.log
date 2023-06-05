@@ -39017,3 +39017,46 @@ odoo.tools.convert.ParseError: while parsing file:/c:/program%20files/odoo%2016.
 2023-06-05 13:42:14,510 11540 INFO odoo werkzeug: 127.0.0.1 - - [05/Jun/2023 13:42:14] "POST /web/dataset/call_kw/hospital.patient/web_read_group HTTP/1.1" 200 - 2 0.000 0.015
 2023-06-05 13:42:15,440 11540 INFO odoo werkzeug: 127.0.0.1 - - [05/Jun/2023 13:42:15] "POST /web/dataset/call_kw/hospital.patient/search_panel_select_multi_range HTTP/1.1" 200 - 2 0.001 0.007
 2023-06-05 13:42:15,743 11540 INFO odoo werkzeug: 127.0.0.1 - - [05/Jun/2023 13:42:15] "POST /web/dataset/call_kw/hospital.patient/web_search_read HTTP/1.1" 200 - 3 0.001 0.007
+2023-06-05 13:46:23,746 11540 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2023-06-05 13:46:23,751 11540 INFO odoo odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2023-06-05 13:46:23,765 11540 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2023-06-05 13:46:23,774 11540 INFO odoo odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2023-06-05 13:46:23,783 11540 INFO odoo odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2023-06-05 13:46:23,789 11540 INFO odoo odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2023-06-05 13:46:23,797 11540 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-06-05 13:46:23,803 11540 INFO odoo odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-06-05 13:46:23,811 11540 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2023-06-05 13:46:23,815 11540 INFO odoo odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2023-06-05 13:46:23,823 11540 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2023-06-05 13:46:23,830 11540 INFO odoo odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2023-06-05 13:56:23,993 11540 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-06-05 13:56:24,007 11540 INFO odoo odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-06-05 13:56:40,893 11540 INFO odoo werkzeug: 127.0.0.1 - - [05/Jun/2023 13:56:40] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.012
+2023-06-05 13:57:18,651 11540 INFO odoo werkzeug: 127.0.0.1 - - [05/Jun/2023 13:57:18] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.011
+2023-06-05 13:57:36,317 11540 INFO odoo werkzeug: 127.0.0.1 - - [05/Jun/2023 13:57:36] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.011
+2023-06-05 13:59:29,036 11540 INFO odoo werkzeug: 127.0.0.1 - - [05/Jun/2023 13:59:29] "POST /web/action/load HTTP/1.1" 200 - 10 0.025 0.070
+2023-06-05 13:59:29,307 11540 INFO odoo werkzeug: 127.0.0.1 - - [05/Jun/2023 13:59:29] "POST /web/dataset/call_kw/hospital.appointment/get_views HTTP/1.1" 200 - 29 0.035 0.078
+2023-06-05 13:59:29,432 11540 INFO odoo werkzeug: 127.0.0.1 - - [05/Jun/2023 13:59:29] "POST /web/dataset/call_kw/hospital.appointment/web_search_read HTTP/1.1" 200 - 17 0.023 0.034
+2023-06-05 13:59:29,764 11540 INFO odoo werkzeug: 127.0.0.1 - - [05/Jun/2023 13:59:29] "GET /web/image/res.users/6/avatar_128 HTTP/1.1" 304 - 9 0.032 0.100
+2023-06-05 14:03:13,714 11540 INFO ? odoo.service.server: Initiating shutdown 
+2023-06-05 14:03:13,715 11540 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-06-05 14:03:14,217 11540 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 6 connections  
+2023-06-05 14:03:18,841 7192 INFO ? odoo: Odoo version 16.0+e-20230526 
+2023-06-05 14:03:18,841 7192 INFO ? odoo: Using configuration file at C:\Program Files\Odoo 16.0e.20230526\server\odoo.conf 
+2023-06-05 14:03:18,841 7192 INFO ? odoo: addons paths: ['C:\\Program Files\\Odoo 16.0e.20230526\\server\\odoo\\addons', 'c:\\program files\\odoo 16.0e.20230526\\sessions\\addons\\16.0', 'c:\\program files\\odoo 16.0e.20230526\\server\\odoo\\addons', 'c:\\program files\\odoo 16.0e.20230526\\server\\custom_addons'] 
+2023-06-05 14:03:18,841 7192 INFO ? odoo: database: openpg@localhost:5432 
+2023-06-05 14:03:19,018 7192 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Program Files\Odoo 16.0e.20230526\thirdparty\wkhtmltopdf.exe 
+2023-06-05 14:03:19,302 7192 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-TICG6T7.Home:8069 
+2023-06-05 14:03:23,025 7192 INFO odoo odoo.modules.loading: loading 1 modules... 
+2023-06-05 14:03:23,026 7192 INFO odoo odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2023-06-05 14:03:23,198 7192 INFO odoo odoo.modules.loading: loading 123 modules... 
+2023-06-05 14:03:23,233 7192 WARNING odoo odoo.addons.attachment_indexation.models.ir_attachment: Attachment indexation of PDF documents is unavailable because the 'pdfminer' Python library cannot be found on the system. You may install it from https://pypi.org/project/pdfminer.six/ (e.g. `pip3 install pdfminer.six`) 
+2023-06-05 14:03:25,146 7192 INFO odoo odoo.modules.loading: 123 modules loaded in 1.95s, 0 queries (+0 extra) 
+2023-06-05 14:03:25,486 7192 WARNING odoo odoo.fields: Field hospital.appointment.hide_sale_price: unknown parameter 'strign', if this is an actual parameter you may want to override the method _valid_field_parameter on the relevant model in order to allow it 
+2023-06-05 14:03:25,742 7192 INFO odoo odoo.modules.loading: Modules loaded. 
+2023-06-05 14:03:25,742 7192 INFO odoo odoo.modules.registry: Registry loaded in 2.773s 
+2023-06-05 14:03:25,755 7192 INFO odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-06-05 14:03:26,238 7192 INFO odoo werkzeug: 127.0.0.1 - - [05/Jun/2023 14:03:26] "GET /websocket HTTP/1.1" 101 - 23 0.072 3.200
+2023-06-05 14:03:26,256 7192 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2023-06-05 14:06:22,700 7192 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-06-05 14:06:22,710 7192 INFO odoo odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
