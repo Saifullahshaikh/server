@@ -1,0 +1,36 @@
+<odoo>
+    <data>
+        <record id="account_payment_inherit_search_view" model="ir.ui.view">
+            <field name="name">account.payment.inherit.search</field>
+            <field name="model">account.payment</field>
+            <field name="inherit_id" ref="account.view_account_payment_search"/>
+            <field name="arch" type="xml">
+                <!-- <search>
+                    <filter string="Customer Payments" name="inbound_filter" domain="[('payment_type', '=', 'inbound')]" position="replace"/>
+                    <filter string="Vendor Payments" name="outbound_filter" domain="[('payment_type', '=', 'outbound')]" position="replace"/>
+                </search> -->
+                <data>
+                    <xpath expr="//filter[@name='inbound_filter']" position="replace">
+                        <filter string="Customer Payments" name="inbound_filter" domain="[('payment_type', '=', 'inbound')]" />
+                    </xpath>
+                    <xpath expr="//filter[@name='outbound_filter']" position="replace">
+                        <filter string="Vendor Payments" name="outbound_filter" domain="[('payment_type', '=', 'outbound')]" />
+                    </xpath>
+                </data>
+            </field>
+        </record>
+    </data>
+
+     <data>
+        <record id="account_payment_tree" model="ir.ui.view">
+            <field name="name">account.payment.tree</field>
+            <field name="model">account.payment</field>
+            <field name="inherit_id" ref="account.view_account_supplier_payment_tree"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='name']" position="attributes">
+                    <attribute name="string">Number</attribute>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>
