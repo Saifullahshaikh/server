@@ -12,6 +12,7 @@
                         <field name='reason'/>
                     </group>
                     <group>
+                        <field name="date_cancel"/>
                     </group>
                      <footer>
                     <button string="Cancel" type="object" name="action_cancel" class="btn-primary" data-hotkey="q"/>
