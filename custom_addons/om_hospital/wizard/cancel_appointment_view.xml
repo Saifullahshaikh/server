@@ -8,15 +8,15 @@
             <form >
                 <group>
                     <group>
-                        <field name='appointment_id'/>
+                        <field name='appointment_id' invisible="context.get('hide_appointment')"/>
                         <field name='reason'/>
                     </group>
                     <group>
                         <field name="date_cancel"/>
                     </group>
                      <footer>
-                    <button string="Cancel" type="object" name="action_cancel" class="btn-primary" data-hotkey="q"/>
-                    <button string="Cancel" special="cancel" data-hotkey="z" class="btn-secondary"/>
+                    <button string="Confirm Cancel" type="object" name="action_cancel" class="btn-primary" data-hotkey="q"/>
+                    <button string="draft" special="cancel" data-hotkey="z" class="btn-secondary"/>
                 </footer>
                 </group>
             </form>
