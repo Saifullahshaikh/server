@@ -10,6 +10,9 @@
             decoration-info="state == 'in_consultation'"
             decoration-warning="state == 'draft'"
             decoration-danger="state == 'cancel'" sample="1" multi_edit="1">
+                <header>
+                    <button name="action_in_consultation" string="In Consultation" type="object"  class="oe_highlight"/>
+                </header>
                 <field name="patient_id"/>
                 <field name="appointment_time" groups="base.group_no_one"/>
                 <field name="booking_date" optional="show"/>
@@ -35,7 +38,7 @@
         <field name="arch" type="xml">
             <form>
                 <header>
-                    <button name="action_in_consultation" string="In Consultation" type="object" states="draft" class="oe_highlight"/>
+                    <!-- <button name="action_in_consultation" string="In Consultation" type="object" states="draft" class="oe_highlight"/> -->
                     <button name="action_done" string="Done" type="object" states="in_consultation" class="oe_highlight"/>
                     <button name="action_draft" string="Draft" type="object" states="cancel" class="oe_highlight"/>
                     <!-- <button name="action_cancel" string="Cancel" type="object" states="draft" class="oe_highlight"/> -->
