@@ -20,6 +20,18 @@ class HospitalPatient(models.Model):
     parent = fields.Char(string="Parent")
     martial_status = fields.Selection([('single',"Single"),('married','Married' )], string="Martial Status")
     partner_name = fields.Char(string="Partner Name")
+    signature = fields.Binary(string="Signature", readonly=True)
+    
+    @api.model
+    def create(self, values):
+        signature_data = self.env['web.pad'].construct('signature', values.get('signature'))
+        values['signature'] = signature_data
+        return super(SignatureExample, self).create(values)
+    
+    def generate_signature(self):
+        signature_data = self.env['web.pad'].construct('signature')
+        self.signature = signature_data
+        
     @api.model
     def create(self,vals):
         vals['ref'] = self.env['ir.sequence'].next_by_code('hospital.patient')
