@@ -1,0 +1,10 @@
+<oddo>
+    <template id="kw_graph_api.log_viewer_template" name='log_viewer_template'>
+        <t t-call="website.layout">
+            <div class="container">
+                <h1>Log Viewer</h1>
+                <!-- <t t-esc="log_data"/> -->
+            </div>
+        </t>
+    </template>
+</odoo>
